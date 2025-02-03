@@ -1,61 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Moirai+One&display=swap');
 
 body{
-    height:100vh;
-    background-image:url(asset/배경.png);
-    background-size: cover;
+    height:80vh;
+    background-image:url(./asset/back.png);
+    background-size:cover
 }
 
 hr{
     background:rgb(255, 192, 253);
     height:1px;
     border:0;
+    margin-top:80px;
+    margin-bottom:-10px;
 }
-a{
+.link{
     font-size:8pt;
 }
 .watcha{
+    font-size:8pt;
     color:rgba(249, 202, 241, 0.519);
+    margin-left:10pt;
 }
 .download{
-    color:rgba(249, 202, 241, 0.519)
+    font-size:10pt;
+    color:rgba(255, 255, 255, 0.737);
+    margin-left:10pt;
 }
 *{
-    background-size:;
-    color:rgb(255, 192, 253)
+    color:rgb(255, 192, 253);
+
 }
 a{
     color:white
 }
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, h6{
     font-family: "Moirai One", serif;
 }
 h1{
     font-size:38pt;
+    text-align: center;
 }
 h2{
     font-size:28pt;
-    margin:-20pt 0pt
+    margin:-20pt 0pt;
+    text-align: center;
 }
 h3{
-    font-size:18pt;
-    margin:35pt 0pt
+    font-size:20pt;
+    margin:35pt 0pt;
+    text-align: center;
 }
 .h-f{
-    margin:30pt 30pt
+    font-size:18pt;
+    margin-left:40%
 }
 .h-s{
-    margin:20pt 60pt;
+    font-size:15pt;
+    margin-left:30%
 }
 .h-t{
-    margin:20pt 90pt;
+    font-size:10pt;
+    margin-left:20%
 }
 h5{
-    font-size:18pt;
-    margin:10pt 0pt
+    font-size:20pt;
+    margin:10pt 5pt 10pt 5pt;
+    padding-left: 5pt;
+    background-color: rgb(255, 192, 253);
+    color:rgb(46, 35, 15);
 }
 h6{
-    font-size:12pt;
+    font-size:20pt;
+    margin:30pt 5pt 30pt 5pt;
+    padding-left: 5pt;
+}
+
+.tv{
+    width:22vw
 }
 marquee{
     font-size: small;
@@ -64,14 +85,21 @@ marquee{
 select{
     background-color: #f9e3fb;
     color:black;
+    font-size: 14pt;
+    font-family: "Cute Font", serif;
+    top:-30px;
+    left:20px;
+    position:relative;
+    padding:5px;
+    border-radius: 15%;
 }
 ol{
     line-height: 30pt;
-    font-family: "Cute Font";
+    font-family: "Cute Font", serif;
     font-size: 15pt;
 }
 .pandora{
-    width:15vw;
+    width:20vw;
     border: 3px, solid, rgb(255, 192, 253);
     border-radius: 25%;
 }
@@ -80,7 +108,8 @@ p{
     line-height: 15pt;
     text-align: left;
     word-break: keep-all;
-    font-family: 
+    padding:5pt;
+    margin:10pt 5pt 10pt 5pt;
 }
 .first-pa, .third-pa{
     color:rgb(46, 35, 15);
@@ -89,4 +118,27 @@ p{
 .korirak{
     border: 5px, solid, rgb(255, 192, 253);
     border-radius: 20%;
+}
+
+div{
+    border: 5pt, dotted, rgba(239, 236, 223, 0.737);
+    border-radius: 10%;
+    padding: 5px 10px 5px 15px;
+    margin-left: 20px;
+    margin-top:5px;
+}
+.review{
+    width: 400px;
+    height:
+}
+.review1{
+    width:400px;
+}
+.number{
+    height: 40px
+}
+span{
+    font-size: 11pt;
+    line-height: 17pt;
+    margin:5pt 3pt;
 }
