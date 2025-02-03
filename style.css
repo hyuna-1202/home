@@ -1,26 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
 
+body{
+    height:100vh;
+    background-image:url(asset/배경.png);
+    background-size: cover;
+}
+
+hr{
+    background:rgb(255, 192, 253);
+    height:1px;
+    border:0;
+}
+a{
+    font-size:8pt;
+}
+.watcha{
+    color:rgba(249, 202, 241, 0.519);
+}
+.download{
+    color:rgba(249, 202, 241, 0.519)
+}
 *{
-    background-color: rgb(46, 35, 15);
+    background-size:;
     color:rgb(255, 192, 253)
 }
 a{
     color:white
 }
-h1, h2, h3{
+h1, h2, h3, h4, h5{
     font-family: "Moirai One", serif;
 }
+h1{
+    font-size:38pt;
+}
+h2{
+    font-size:28pt;
+    margin:-20pt 0pt
+}
+h3{
+    font-size:18pt;
+    margin:35pt 0pt
+}
+.h-f{
+    margin:30pt 30pt
+}
+.h-s{
+    margin:20pt 60pt;
+}
+.h-t{
+    margin:20pt 90pt;
+}
+h5{
+    font-size:18pt;
+    margin:10pt 0pt
+}
+h6{
+    font-size:12pt;
+}
+marquee{
+    font-size: small;
+    padding: 20pt 0pt
+}
+select{
+    background-color: #f9e3fb;
+    color:black
+}
+.pandora{
+    width:15vw;
+    border: 3px, solid, rgb(255, 192, 253);
+    border-radius: 25%;
+}
 p{
-    font-size: 12pt;
+    font-size: 10pt;
     text-align: left;
     word-break: keep-all;
     font-family: 
 }
-.first-pa, u, i, .third-pa{
+.first-pa, .third-pa{
     color:rgb(46, 35, 15);
     background-color:rgb(255, 192, 253)
 }
-img{
+.korirak{
     border: 5px, solid, rgb(255, 192, 253);
     border-radius: 20%;
 }
